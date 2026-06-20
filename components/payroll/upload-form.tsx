@@ -81,7 +81,7 @@ export function UploadForm() {
         <label className="block">
           <span className="text-sm font-medium text-slate-700 dark:text-slate-200">Excel File *</span>
           <input name="excelFile" type="file" accept=".xlsx,.xls" required className="mt-2 w-full rounded-md border border-dashed border-slate-300 px-3 py-3 text-sm dark:border-slate-700" />
-          <p className="mt-1 text-xs text-slate-500">4 sheets required: Company Details, Employees, Salary, Deductions</p>
+          <p className="mt-1 text-xs text-slate-500">3 sheets required:Employees, Salary, Deductions</p>
         </label>
         <label className="block">
           <span className="text-sm font-medium text-slate-700 dark:text-slate-200">Company Logo (Optional)</span>

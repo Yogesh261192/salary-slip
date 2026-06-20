@@ -8,7 +8,7 @@ export default function LoginPage() {
         <div className="mb-8">
           <p className="text-sm font-semibold uppercase tracking-wide text-payroll-600">Payroll Admin</p>
           <h1 className="mt-2 text-3xl font-bold text-slate-950 dark:text-white">Sign in</h1>
-          <p className="mt-2 text-sm text-slate-500">Access is restricted to Appwrite users with admin role.</p>
+          <p className="mt-2 text-sm text-slate-500">Please contact admin for access.</p>
         </div>
        <Suspense fallback={<div>Loading...</div>}>
       <LoginForm />
