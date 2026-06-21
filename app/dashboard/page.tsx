@@ -48,7 +48,7 @@ export default async function DashboardPage() {
         <ol className="mt-4 space-y-3 text-sm text-slate-700 dark:text-slate-300">
           <li className="flex gap-3">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-payroll-100 font-semibold text-payroll-700 dark:bg-slate-800">1</span>
-            <span>Prepare your Excel file with 4 sheets: Company Details, Employees, Salary, and Deductions</span>
+            <span>Prepare your Excel file with 3 sheets: Employees, Salary, and Deductions</span>
           </li>
           <li className="flex gap-3">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-payroll-100 font-semibold text-payroll-700 dark:bg-slate-800">2</span>
