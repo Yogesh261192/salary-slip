@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FileSpreadsheet, Send, UploadCloud } from "lucide-react";
+import { DownloadCloud, FileSpreadsheet, Send, UploadCloud } from "lucide-react";
 import { toast } from "sonner";
 
 export function UploadForm() {
@@ -112,6 +112,14 @@ export function UploadForm() {
           <UploadCloud size={18} />
           {loading ? "Processing..." : "Upload & Process"}
         </button>
+         <a
+  href="/sample-salary-data.xlsx"
+  download
+  className="inline-flex items-center gap-2 rounded-md bg-payroll-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-payroll-700"
+>
+  <DownloadCloud size={18} />
+  Sample Sheet
+</a>
         {downloadReady && (
           <div className="text-xs text-green-600 dark:text-green-400 flex items-center gap-2">
             <FileSpreadsheet size={16} />
